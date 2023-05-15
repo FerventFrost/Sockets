@@ -12,6 +12,7 @@ class Downloader:
         return sock
     
     def SendRequest(self, sock):
+        print('Connecting GET %s HTTP/1.0' % self.path)
         request = 'GET %s HTTP/1.0\r\nHost: %s\r\n\r\n' % (self.path, self.host)
         sock.send(request.encode())
 
@@ -25,6 +26,7 @@ class Downloader:
         return response
     
     def download(self):
+        print('Downloading: %s' % self.url)
         sock = self.InitSocket()
         self.SendRequest(sock)
         page = b''
@@ -42,6 +44,5 @@ class Downloader:
 if __name__ == '__main__':
     url = 'https://crawler-test.com/'
     downloader = Downloader(url)
-    print(downloader.download())
     downloader.save('CrawlerTest.html')
     print('Done!')
