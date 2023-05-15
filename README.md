@@ -49,6 +49,18 @@
 
 ## Downloder Video
 
-
 https://github.com/FerventFrost/Sockets/assets/90336445/55526b09-2ac6-4cdb-ba6f-bfc4963f0892
+
+
+## Chat Video
+
+https://github.com/FerventFrost/Sockets/assets/90336445/4d42bfdf-9ded-45dc-b85b-81e7e31067d2
+
+
+## File Transfer
+
+https://github.com/FerventFrost/Sockets/assets/90336445/8aff36b2-3e14-4d52-a55a-be33b127b138
+
+
+
 
